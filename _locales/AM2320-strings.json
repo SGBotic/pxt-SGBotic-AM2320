@@ -1,0 +1,6 @@
+{
+  "SGBotic.readHumidity|block": "humidity",
+  "SGBotic.readTemperature|block": "temperature",
+  "SGBotic|block": "SGBotic",
+  "{id:category}SGBotic": "SGBotic"
+}

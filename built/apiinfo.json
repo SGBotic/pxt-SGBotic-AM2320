@@ -1,0 +1,72 @@
+{
+ "byQName": {
+  "SGBotic": {
+   "kind": 5,
+   "namespace": "",
+   "name": "SGBotic",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "weight": 100,
+    "color": "#f47820",
+    "icon": "",
+    "paramHelp": {},
+    "jsDoc": "AM2320 temperature and humidity sensor package for microbit Makecode.\n\nSGBotic blocks",
+    "block": "SGBotic"
+   },
+   "pkg": null,
+   "retType": "",
+   "parameters": null,
+   "qName": "SGBotic"
+  },
+  "SGBotic.readTemperature": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "readTemperature",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "AM2320",
+    "Sensor": "true",
+    "blockId": "AM2320_getTemperature",
+    "block": "temperature",
+    "weight": 100,
+    "blockGap": "3",
+    "paramHelp": {},
+    "jsDoc": "read temperature",
+    "_name": "readTemperature"
+   },
+   "pkg": null,
+   "retType": "number",
+   "parameters": [],
+   "snippet": "readTemperature()",
+   "qName": "SGBotic.readTemperature"
+  },
+  "SGBotic.readHumidity": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "readHumidity",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "AM2320",
+    "Sensor": "true",
+    "blockId": "AM2320_getHumidity",
+    "block": "humidity",
+    "weight": 90,
+    "blockGap": "3",
+    "paramHelp": {},
+    "jsDoc": "read humidity",
+    "_name": "readHumidity"
+   },
+   "pkg": null,
+   "retType": "number",
+   "parameters": [],
+   "snippet": "readHumidity()",
+   "qName": "SGBotic.readHumidity"
+  }
+ }
+}

@@ -1,0 +1,5 @@
+{
+  "SGBotic": "AM2320 temperature and humidity sensor package for microbit Makecode.\n\nSGBotic blocks",
+  "SGBotic.readHumidity": "read humidity",
+  "SGBotic.readTemperature": "read temperature"
+}
